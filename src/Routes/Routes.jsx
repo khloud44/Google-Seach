@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Route, Routes } from 'react-router-dom';
-import { NotFound } from '../Components/NotFound';
+import { NotFound } from '../Pages/NotFound';
 import { WelcomPage } from '../Pages/WelcomPage';
 import { Results } from '../Components/Results';
 

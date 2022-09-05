@@ -1,6 +1,7 @@
 import React from 'react'
 
-import welcomeImage from '../assets/welcomeGif.gif'
+import welcomeImage from '../assets/welcomeGif.gif';
+
 export const WelcomPage = () => {
   return (
     <div className='text-center'>
