@@ -1,17 +1,17 @@
 import React from 'react'
-import {  Route, Routes, useNavigate } from 'react-router-dom';
-import { NotFound } from './NotFound';
-import { Results } from './Results';
+import {  Route, Routes } from 'react-router-dom';
+import { NotFound } from '../Components/NotFound';
+import { WelcomPage } from '../Pages/WelcomPage';
+import { Results } from '../Components/Results';
 
 const RoutesApp = () => {
 
-    const navigate= useNavigate();
 
     return (
         <div className='p-4'>
             <Routes>
                 <Route path='/'>
-                    <Route index element={<Results/>}/>
+                    <Route index element={<WelcomPage/>}/>
                     <Route path="/search" element={<Results/>}/>
                     <Route path="/image" element={<Results/>}/>
                     <Route path="/video" element={<Results/>}/>
